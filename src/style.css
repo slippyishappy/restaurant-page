@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+SC:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Great+Vibes&display=swap');
+
+:root {
+    /*fonts*/
+    --heading-font: "Cinzel", serif;
+    --text-font: "DM Sans", sans-serif;
+    --small-text: "Great Vibes", cursive;
+    --button-text: "Cormorant SC", serif;
+    --font-size: 12px;
+    /*colors*/
+    --white: #FFFFFF;
+    --yellow-text: #F3D382;
+    --yellow-button: #F5BE32;
+    --black: #000000;
+}
+
+body {
+    text-align: center;
+    font-family: var(--text-font);
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--font-size);
+    padding: 0;
+    margin: 0;
+    background-color: #1E1E1E;
+}
+
+#hero {
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.small-text {
+    margin: 0;
+    font-family: var(--small-text);
+    letter-spacing: 5px;
+    font-size: 2em;
+    color: var(--white);
+    font-weight: 400;
+}
+
+.heading {
+    width: 50%;
+    font-family: var(--heading-font);
+    font-size: 5em;
+    color: var(--yellow-text);
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+    width: 365px;
+    font-family: var(--text-font);
+    font-size: 1.7em;
+    color: var(--white);
+}
+
+.button-filled {
+    font-weight: 600;
+    border: none;
+    padding: 0.7em 1.7em;
+    font-family: var(--button-text);
+    font-size: 1.7em;
+    background-color: var(--yellow-button);
+    box-shadow: var(--yellow-text) 0px 0px 0px 1px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.tab {
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--button-text);
+    font-size: 1.7em;
+    padding: 0;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.tab:hover, .tab:focus {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.button-empty {
+    color: var(--yellow-button);
+    font-weight: 600;
+    border: 3px solid var(--yellow-button);
+    padding: 0.7em 1.7em;
+    font-family: var(--button-text);
+    font-size: 1.7em;
+    background-color: transparent;
+}
