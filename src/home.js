@@ -25,7 +25,7 @@ function setupHomePage() {
     heroSection.append(h3, h1, p);
 
     const menuButton = document.createElement("button");
-    menuButton.classList.add("button-filled");
+    menuButton.classList.add("button-filled", "menu");
     menuButton.textContent = "GO TO MENU";
 
     heroSection.appendChild(menuButton);
