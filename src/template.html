@@ -12,9 +12,9 @@
                 <img src="logo 1.svg" alt="Restaurant logo">
             </div>
             <div id="links">
-                <a href="#hello"><button class="tab">MENU</button></a>
-                <button class="tab">FINE DINING</button>
-                <button class="tab">ABOUT</button>
+                <button class="tab" id="menu">MENU</button>
+                <button class="tab" id="dining">FINE DINING</button>
+                <button class="tab" id="about">ABOUT</button>
             </div>
             <div>
                 <button id="reservation" class="button-empty">RESERVATION</button>
@@ -22,17 +22,68 @@
         </nav>
     </header>
     <div id="content">
-        <div id="hero">
-            <div id="header">
-                <h3 class="small-text">Best sushi in town</h3>
-                <h1 class="heading">Taste the rich flavor of
-                    high quality sushi</h1>
-                <p>We only use the five star quality for
-                    our menu, come and get the richness in
-                    every food we serve.</p>
+        <div id="specials">
+            <h3 class="small-text">Special Menu</h3>
+            <h1 class="heading">Today's Specials</h1>
+            <p>Special menu often comes different everyday,
+                this is our special food for today</p>
+                <div id="cards">
+                    <div class="card">
+                        <img src="tuna_sushi.png">
+                        <h1 class="menu-heading">TUNA SUSHI</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.</p>
+                        <button class="button-empty">ORDER NOW</button>
+                    </div>
+                    <div class="card">
+                        <img src="salmon_sushi.png">
+                        <div>
+                            <h1 class="menu-heading">SALMON SUSHI</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.</p>
+                            <button class="button-empty">ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="just_sushi.png">
+                        <h1 class="menu-heading">JUST SUSHI</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus.</p>
+                        <button class="button-empty">ORDER NOW</button>
+                    </div>
+                </div>
             </div>
-            <button class="button-filled">GO TO MENU</button>
-        </div>
+            <img src="image_divider.png" style="width: 100%;">
+            <div id="menu-section">
+                <h3 class="small-text">Quality Food For You</h3>
+            <h1 class="heading">Our Specialities</h1>
+            <p>Authentic food from our restaurant served
+                with high quality ingredients</p>
+            </div>
+            <div id="special-list">
+                <div class="items">
+                    <img src="dragon_sushi.jpg">
+                    <div class="description">
+                        <h1 class="menu-heading">Dragon Sushi</h1>
+                        <p>Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.</p>
+                        <h2 class="menu-heading">$50</h2>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="description">
+                        <h1 class="menu-heading">Creamy Sushi</h1>
+                        <p>Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.</p>
+                        <h2 class="menu-heading">$50</h2>
+                    </div>
+                    <img src="creamy_sushi.jpg">
+                </div>
+                <div class="items">
+                    <div class="items">
+                        <img src="roll_salmon_sushi.jpg">
+                        <div class="description">
+                            <h1 class="menu-heading">Roll Salmon Sushi</h1>
+                            <p>Ingredients: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut imperdiet lectus. Donec vitae vulputate nunc, in laoreet urna.</p>
+                            <h2 class="menu-heading">$50</h2>
+                        </div>
+                </div>
+            </div>
     </div>
 </body>
 </html>
