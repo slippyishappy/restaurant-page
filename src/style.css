@@ -152,7 +152,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6em;
+    padding-top: 4em;
+    padding-bottom: 6em;
 }
 
 #cards {
@@ -202,10 +203,31 @@ p {
     padding: 4em;
 }
 
-.description > p {
+.description > p, #text > p {
     text-align: left;
 }
 
 .description > h2 {
     font-size: 3.4em;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+#story {
+    display: flex;
+    padding: 2em;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 4em;
 }
