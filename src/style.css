@@ -231,3 +231,30 @@ p {
     align-items: start;
     padding: 4em;
 }
+
+#dining-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.description-dining {
+    position: absolute;
+    text-align: left;
+    left: 11%;
+}
+
+#gold {
+    position: absolute;
+    text-align: right;
+    right: 11%;
+}

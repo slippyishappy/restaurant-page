@@ -3,7 +3,7 @@ import { setupHomePage } from "./home.js";
 import { setupMenuPage } from "./menu.js";
 import { setupAboutPage } from "./about.js"
 
-setupHomePage();
+//setupHomePage();
 
 const home = document.querySelector("#logo");
 const menu = document.querySelectorAll(".menu");
