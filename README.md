@@ -4,7 +4,7 @@ This project creates a restaurant webpage using JavaScript. The project utilizes
 
 ## Demo
 
-You can view this project with this (link)[https://slippyishappy.github.io/restaurant-page/]
+You can view this project with this [link](https://slippyishappy.github.io/restaurant-page/)
 
 ## Tools Used
 
